@@ -1,0 +1,6 @@
+{
+  "name": "@antti/pruner",
+  "version": "0.1.3",
+  "exports": "./index.mjs",
+  "includes": "./index.mjs"
+}

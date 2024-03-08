@@ -1,0 +1,20 @@
+{
+  "name": "@antti/pruner",
+  "version": "0.1.3",
+  "description": "Prune junk out of your node_modules",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "bin": "./index.mjs",
+  "scripts": {
+    "lint": "biome lint .",
+    "format": "biome check --apply-unsafe .",
+    "pruner": "node ./index.mjs"
+  },
+  "files": ["index.mjs"],
+  "keywords": ["clean", "prune", "node_modules"],
+  "author": "Antti",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.0"
+  }
+}
